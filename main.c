@@ -34,11 +34,11 @@ int main(int argc, char **argv)
 		while(CardCount == 0)
 			{
 		// Asks how many players there are and assigns it to players
-				printf("Number of players:   ");
+				printf("Number of players: ");
 				scanf("%d", &players);
 
 		// Asks how many cards per player and asignes it to cards
-				printf("Cards per player:   ");
+				printf("Cards per player: ");
 				scanf("%d", &cards);
 
 				CardCount = players * cards;
@@ -312,11 +312,11 @@ int main(int argc, char **argv)
     while(CardCount == 0)
         {
     // Asks how many players there are and assigns it to players
-            printf("Number of players:   ");
+            printf("Numero de jugadores: ");
             scanf("%d", &players);
 
     // Asks how many cards per player and asignes it to cards
-            printf("Cards per player:   ");
+            printf("Cartas por jugador: ");
             scanf("%d", &cards);
 
             CardCount = players * cards;
@@ -399,160 +399,160 @@ int main(int argc, char **argv)
                                     {
 
                                         case 1:
-                                           printf("Ace of spades\n");
+                                           printf("Az de Espadas\n");
                                            break;
                                         case 2:
-                                            printf("King of spades\n");
+                                            printf("Rey de Espadas\n");
                                             break;
                                         case 3:
-                                            printf("Queen of spades\n");
+                                            printf("Reina de Espadas\n");
                                             break;
                                         case 4:
-                                           printf("Jack of spades\n");
+                                           printf("Jack de Espadas\n");
                                            break;
                                         case 5:
-                                            printf("10 of spades\n");
+                                            printf("10 de Espadas\n");
                                             break;
                                         case 6:
-                                            printf("9 of spades\n");
+                                            printf("9 de Espadas\n");
                                             break;
                                         case 7:
-                                            printf("8 of spades\n");
+                                            printf("8 de Espadas\n");
                                             break;
                                         case 8:
-                                            printf("7 of spades\n");
+                                            printf("7 de Espadas\n");
                                             break;
                                         case 9:
-                                            printf("6 of spades\n");
+                                            printf("6 de Espadas\n");
                                             break;
                                         case 10:
-                                            printf("5 of spades\n");
+                                            printf("5 de Espadas\n");
                                             break;
                                         case 11:
-                                            printf("4 of spades\n");
+                                            printf("4 de Espadas\n");
                                             break;
                                         case 12:
-                                            printf("3 of spades\n");
+                                            printf("3 de Espadas\n");
                                             break;
                                         case 13:
-                                            printf("2 of spades\n");
+                                            printf("2 de Espadas\n");
                                             break;
                                         case 14:
-                                            printf("Ace of diamonds\n");
+                                            printf("Az de Diamantes\n");
                                             break;
                                         case 15:
-                                            printf("King of diamonds\n");
+                                            printf("Rey de Diamantes\n");
                                             break;
                                         case 16:
-                                            printf("Queen of diamonds\n");
+                                            printf("Reina de Diamantes\n");
                                             break;
                                         case 17:
-                                            printf("Jack of diamonds\n");
+                                            printf("Jack de Diamantes\n");
                                             break;
                                         case 18:
-                                            printf("10 of diamonds\n");
+                                            printf("10 de Diamantes\n");
                                             break;
                                         case 19:
-                                            printf("9 of diamonds\n");
+                                            printf("9 de Diamantes\n");
                                             break;
                                         case 20:
-                                            printf("8 of diamonds\n");
+                                            printf("8 de Diamantes\n");
                                             break;
                                         case 21:
-                                            printf("7 of diamonds\n");
+                                            printf("7 de Diamantes\n");
                                             break;
                                         case 22:
-                                            printf("6 of diamonds\n");
+                                            printf("6 de Diamantes\n");
                                             break;
                                         case 23:
-                                            printf("5 of diamonds\n");
+                                            printf("5 de Diamantes\n");
                                             break;
                                         case 24:
-                                            printf("4 of diamonds\n");
+                                            printf("4 de Diamantes\n");
                                             break;
                                         case 25:
-                                            printf("3 of diamonds\n");
+                                            printf("3 de Diamantes\n");
                                             break;
                                         case 26:
-                                            printf("2 of diamonds\n");
+                                            printf("2 de Diamantes\n");
                                             break;
                                         case 27:
-                                            printf("Ace of clovers\n");
+                                            printf("Az de Trebol\n");
                                             break;
                                         case 28:
-                                            printf("King of clovers\n");
+                                            printf("Rey de Trebol\n");
                                             break;
                                         case 29:
-                                            printf("Queen of clovers\n");
+                                            printf("Reina de Trebol\n");
                                             break;
                                         case 30:
-                                            printf("Jack of clovers\n");
+                                            printf("Jack de Trebol\n");
                                             break;
                                         case 31:
-                                            printf("10 of clovers\n");
+                                            printf("10 de Trebol\n");
                                             break;
                                         case 32:
-                                            printf("9 of clovers\n");
+                                            printf("9 de Trebol\n");
                                             break;
                                         case 33:
-                                            printf("8 of clovers\n");
+                                            printf("8 de Trebol\n");
                                             break;
                                         case 34:
-                                            printf("7 of clovers\n");
+                                            printf("7 de Trebol\n");
                                             break;
                                         case 35:
-                                            printf("6 of clovers\n");
+                                            printf("6 de Trebol\n");
                                             break;
                                         case 36:
-                                            printf("5 of clovers\n");
+                                            printf("5 de Trebol\n");
                                             break;
                                         case 37:
-                                            printf("4 of clovers\n");
+                                            printf("4 de Trebol\n");
                                             break;
                                         case 38:
-                                            printf("3 of clovers\n");
+                                            printf("3 de Trebol\n");
                                             break;
                                         case 39:
-                                            printf("2 of clovers\n");
+                                            printf("2 de Trebol\n");
                                             break;
                                         case 40:
-                                            printf("Ace of hearts\n");
+                                            printf("Az de Corazones\n");
                                             break;
                                         case 41:
-                                            printf("King of hearts\n");
+                                            printf("Rey de Corazones\n");
                                             break;
                                         case 42:
-                                            printf("Queen of hearts\n");
+                                            printf("Reina de Corazones\n");
                                             break;
                                         case 43:
-                                            printf("Jack of hearts\n");
+                                            printf("Jack de Corazones\n");
                                             break;
                                         case 44:
-                                            printf("10 of hearts\n");
+                                            printf("10 de Corazones\n");
                                             break;
                                         case 45:
-                                            printf("9 of hearts\n");
+                                            printf("9 de Corazones\n");
                                             break;
                                         case 46:
-                                            printf("8 of hearts\n");
+                                            printf("8 de Corazones\n");
                                             break;
                                         case 47:
-                                            printf("7 of hearts\n");
+                                            printf("7 de Corazones\n");
                                             break;
                                         case 48:
-                                            printf("6 of hearts\n");
+                                            printf("6 de Corazones\n");
                                             break;
                                         case 49:
-                                            printf("5 of hearts\n");
+                                            printf("5 de Corazones\n");
                                             break;
                                         case 50:
-                                            printf("4 of hearts\n");
+                                            printf("4 de Corazones\n");
                                             break;
                                         case 51:
-                                            printf("3 of hearts\n");
+                                            printf("3 de Corazones\n");
                                             break;
                                         case 52:
-                                            printf("2 of hearts\n");
+                                            printf("2 de Corazones\n");
                                             break;
                                     }
 
@@ -566,7 +566,7 @@ int main(int argc, char **argv)
 
             else
                 {
-                    printf("There are only 52 cards to pass, you entered %d cards\n", CardCount);
+                    printf("Solo hay 52 cartas para jugar, usted eligio %d cartas\n", CardCount);
 
                     CardCount = 0;
 
